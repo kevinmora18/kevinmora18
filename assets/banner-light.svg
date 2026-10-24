@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+
+    <linearGradient id="cyanPurpleGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#DB2777"/>
+    </linearGradient>
+
+    <linearGradient id="textGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="70%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+
+    <linearGradient id="pillGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.04"/>
+    </linearGradient>
+
+    <linearGradient id="cardGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <linearGradient id="helixGrad1L" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <linearGradient id="helixGrad2L" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9333EA"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="gridL" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#CBD5E1" stroke-width="0.75" stroke-opacity="0.45"/>
+      <circle cx="40" cy="0" r="1.5" fill="#0284C7" fill-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .titleL { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-weight: 800; font-size: 46px; fill: url(#textGradL); letter-spacing: -0.5px; }
+    .subtitleL { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-weight: 600; font-size: 20px; fill: #475569; }
+    .roleL { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-weight: 700; font-size: 22px; fill: #0284C7; }
+    .badge-textL { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-weight: 600; font-size: 13px; fill: #047857; letter-spacing: 0.5px; }
+    .pill-textL { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; font-weight: 600; font-size: 13px; fill: #334155; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="380" rx="16" fill="url(#bgGradL)"/>
+  <rect width="1200" height="380" rx="16" fill="url(#gridL)"/>
+
+  <!-- Border Gradient Stroke -->
+  <rect width="1198" height="378" x="1" y="1" rx="15" fill="none" stroke="url(#cyanPurpleGradL)" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <!-- Status Badge -->
+  <g transform="translate(60, 48)">
+    <rect width="365" height="32" rx="16" fill="url(#pillGradL)" stroke="#059669" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="18" cy="16" r="5" fill="#059669"/>
+    <text x="34" y="21" class="badge-textL">DISPONIBLE · PATROCINIO SENA / FREELANCE</text>
+  </g>
+
+  <!-- Main Headline & Role -->
+  <g transform="translate(60, 130)">
+    <text x="0" y="0" class="titleL">Kevin Gregorio Mora</text>
+    <text x="0" y="38" class="roleL">Desarrollador Full-Stack Junior <tspan fill="#94A3B8" font-weight="400">|</tspan> <tspan fill="#7C3AED">Stack PERN</tspan></text>
+    <text x="0" y="70" class="subtitleL">Bases de datos relacionales limpias · Arquitecturas con Node.js &amp; PostgreSQL · React</text>
+  </g>
+
+  <!-- Tech Stack Pills Row -->
+  <g transform="translate(60, 240)">
+    <g transform="translate(0, 0)">
+      <rect width="125" height="34" rx="8" fill="url(#cardGradL)" stroke="#0284C7" stroke-width="1" stroke-opacity="0.35"/>
+      <circle cx="20" cy="17" r="4" fill="#0284C7"/>
+      <text x="32" y="22" class="pill-textL">PostgreSQL</text>
+    </g>
+
+    <g transform="translate(135, 0)">
+      <rect width="145" height="34" rx="8" fill="url(#cardGradL)" stroke="#16A34A" stroke-width="1" stroke-opacity="0.35"/>
+      <circle cx="20" cy="17" r="4" fill="#16A34A"/>
+      <text x="32" y="22" class="pill-textL">Node.js · Express</text>
+    </g>
+
+    <g transform="translate(290, 0)">
+      <rect width="135" height="34" rx="8" fill="url(#cardGradL)" stroke="#2563EB" stroke-width="1" stroke-opacity="0.35"/>
+      <circle cx="20" cy="17" r="4" fill="#2563EB"/>
+      <text x="32" y="22" class="pill-textL">React · Next.js</text>
+    </g>
+
+    <g transform="translate(435, 0)">
+      <rect width="130" height="34" rx="8" fill="url(#cardGradL)" stroke="#9333EA" stroke-width="1" stroke-opacity="0.35"/>
+      <circle cx="20" cy="17" r="4" fill="#9333EA"/>
+      <text x="32" y="22" class="pill-textL">Three.js 3D</text>
+    </g>
+
+    <g transform="translate(575, 0)">
+      <rect width="115" height="34" rx="8" fill="url(#cardGradL)" stroke="#D97706" stroke-width="1" stroke-opacity="0.35"/>
+      <circle cx="20" cy="17" r="4" fill="#D97706"/>
+      <text x="32" y="22" class="pill-textL">DBML · SQL</text>
+    </g>
+  </g>
+
+  <!-- Location & Academic info Footer -->
+  <g transform="translate(60, 316)">
+    <text x="0" y="16" font-family="'Segoe UI', sans-serif" font-size="13" fill="#64748B">
+      📍 <tspan fill="#334155" font-weight="600">Piedecuesta, Santander, Colombia</tspan>
+      &nbsp;&nbsp;•&nbsp;&nbsp;
+      🎓 <tspan fill="#334155" font-weight="600">SENA C.A.S.A. · ADSO (Ficha 3172526)</tspan>
+      &nbsp;&nbsp;•&nbsp;&nbsp;
+      ⚡ <tspan fill="#0284C7" font-weight="600">portafoleo-kevin-m.vercel.app</tspan>
+    </text>
+  </g>
+
+  <!-- RIGHT SIDE: 3D Helix Vector Art -->
+  <g transform="translate(970, 190)">
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="6,8"/>
+    <circle cx="0" cy="0" r="110" fill="none" stroke="#94A3B8" stroke-width="1" stroke-opacity="0.5"/>
+
+    <path d="M -80 -140 C -30 -100, -30 -60, -75 -10 C -120 40, -120 90, -70 140" fill="none" stroke="url(#helixGrad1L)" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M 60 -140 C 10 -100, 10 -60, 65 -10 C 110 40, 110 90, 50 140" fill="none" stroke="url(#helixGrad2L)" stroke-width="4.5" stroke-linecap="round"/>
+
+    <line x1="-75" y1="-120" x2="52" y2="-120" stroke="#0284C7" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="-75" cy="-120" r="5" fill="#0284C7"/>
+    <circle cx="52" cy="-120" r="5" fill="#9333EA"/>
+
+    <line x1="-42" y1="-80" x2="22" y2="-80" stroke="#6366F1" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="-42" cy="-80" r="4.5" fill="#0284C7"/>
+    <circle cx="22" cy="-80" r="4.5" fill="#7C3AED"/>
+
+    <line x1="-72" y1="-10" x2="63" y2="-10" stroke="#7C3AED" stroke-width="2.5" stroke-opacity="0.8"/>
+    <circle cx="-72" cy="-10" r="6" fill="#0284C7"/>
+    <circle cx="63" cy="-10" r="6" fill="#7C3AED"/>
+    <circle cx="-4" cy="-10" r="3" fill="#0F172A"/>
+
+    <line x1="-108" y1="50" x2="98" y2="50" stroke="#6366F1" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="-108" cy="50" r="4.5" fill="#0284C7"/>
+    <circle cx="98" cy="50" r="4.5" fill="#7C3AED"/>
+
+    <line x1="-75" y1="110" x2="55" y2="110" stroke="#0284C7" stroke-width="2" stroke-opacity="0.7"/>
+    <circle cx="-75" cy="110" r="5" fill="#0284C7"/>
+    <circle cx="55" cy="110" r="5" fill="#9333EA"/>
+
+    <g transform="translate(105, -70)">
+      <rect width="44" height="48" rx="8" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5" stroke-opacity="0.6"/>
+      <ellipse cx="22" cy="12" rx="14" ry="5" fill="#0284C7" fill-opacity="0.2" stroke="#0284C7" stroke-width="1"/>
+      <path d="M 8 12 v 12 c 0 3 6 5 14 5 s 14 -2 14 -5 v -12" fill="none" stroke="#0284C7" stroke-width="1"/>
+      <path d="M 8 24 v 12 c 0 3 6 5 14 5 s 14 -2 14 -5 v -12" fill="none" stroke="#0284C7" stroke-width="1"/>
+    </g>
+
+    <g transform="translate(-145, 60)">
+      <rect width="44" height="48" rx="8" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.5" stroke-opacity="0.6"/>
+      <circle cx="22" cy="24" r="5" fill="#7C3AED"/>
+      <ellipse cx="22" cy="24" rx="15" ry="6" fill="none" stroke="#7C3AED" stroke-width="1.2" transform="rotate(30 22 24)"/>
+      <ellipse cx="22" cy="24" rx="15" ry="6" fill="none" stroke="#7C3AED" stroke-width="1.2" transform="rotate(-30 22 24)"/>
+    </g>
+  </g>
+</svg>
