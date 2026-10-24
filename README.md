@@ -1,11 +1,9 @@
 <div align="center">
 
-  <!-- Header Banner (Adaptive Dark / Light Mode) -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-    <img alt="Kevin Mora - Desarrollador Full-Stack Junior" src="assets/banner-dark.svg" width="100%">
-  </picture>
+  <!-- Header Banner -->
+  <a href="https://portafoleo-kevin-m.vercel.app/" target="_blank">
+    <img src="assets/banner.png" alt="Kevin Mora - Desarrollador Full-Stack Junior" width="100%">
+  </a>
 
   <br><br>
 
@@ -148,7 +146,7 @@ respuesta_contacto: Menos de 24 horas garantizado
 
 <p align="center">
   <a href="https://portafoleo-kevin-m.vercel.app/" target="_blank">
-    <img src="assets/portfolio-preview.svg" width="100%" alt="Portafolio 3D Helix de Kevin Mora" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+    <img src="assets/portfolio-preview.jpg" width="100%" alt="Portafolio 3D Helix de Kevin Mora" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
   </a>
 </p>
 
