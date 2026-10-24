@@ -127,7 +127,7 @@ respuesta_contacto: Menos de 24 horas garantizado
 
 <p align="center">
   <a href="https://proyecto-barber-tan.vercel.app/" target="_blank">
-    <img src="assets/barber-preview.jpg" width="100%" alt="Barbería El Dorado - Mockup Web y Móvil" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+    <img src="assets/barber-real.jpg" width="100%" alt="Barbería El Dorado - Captura Real del Sitio Web" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
   </a>
 </p>
 
@@ -146,7 +146,7 @@ respuesta_contacto: Menos de 24 horas garantizado
 
 <p align="center">
   <a href="https://portafoleo-kevin-m.vercel.app/" target="_blank">
-    <img src="assets/portfolio-preview.jpg" width="100%" alt="Portafolio 3D Helix de Kevin Mora" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+    <img src="assets/portfolio-real.jpg" width="100%" alt="Portafolio Web de Kevin Mora - Captura Real del Sitio" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
   </a>
 </p>
 
