@@ -32,7 +32,7 @@
   <a href="https://discord.com/users/TU-ID-DISCORD"><img alt="Discord (opcional)" src="https://img.shields.io/badge/Discord-opcional-5865F2?style=for-the-badge&logo=discord&logoColor=white"></a>
 </p>
 
-## Hola, soy TU-NOMBRE 👋
+## Hola, soy kevin mora 👋
 <!-- ✏️ EDITA: escribe tu nombre real. -->
 
 > 📌 **Aviso:** estoy buscando mi primera oportunidad (práctica o empleo junior). Si tienes una vacante, ¡escríbeme!
